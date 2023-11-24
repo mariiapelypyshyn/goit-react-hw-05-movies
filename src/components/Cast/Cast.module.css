@@ -1,0 +1,9 @@
+.ProfileImg {
+  width: 100px;
+  height: auto;
+}
+
+.CastList {
+  list-style: none;
+  padding: 15px;
+}

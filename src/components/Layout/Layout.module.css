@@ -1,0 +1,15 @@
+.headerLink {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.headerLink.active {
+  color: red;
+}
+
+.header {
+  padding: 15px;
+  box-shadow: 0px 8px 14px 0px rgba(150, 150, 150, 1);
+}
