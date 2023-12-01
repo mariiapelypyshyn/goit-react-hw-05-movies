@@ -6,8 +6,8 @@ const Layout = ({children}) => {
   return (
        <div>
       <header className={css.header}>
-        <NavLink className={css.headerLink} to="/">Home</NavLink>
-        <NavLink className={css.headerLink} to="/movies">Movies</NavLink>
+        <NavLink className={({isActive}) => `${css.headerLink} ${isActive ? css.active :''}`} to="/">Home</NavLink>
+        <NavLink className={({isActive}) => `${css.headerLink} ${isActive ? css.active :''}`} to="/movies">Movies</NavLink>
       </header>
           <main>{ children }</main>
           </div>
